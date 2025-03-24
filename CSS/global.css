@@ -1,0 +1,83 @@
+:root {
+  --primary-color: #a11d2f;
+  --secondary-color: #f8b73d;
+  --third-color: #77202c;
+  --text-color: #77202c;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(145deg, #f8b73d, #a11d2f);
+  position: relative;
+}
+section {
+  margin: 8rem 0;
+}
+p {
+  text-transform: capitalize;
+  color: white;
+  margin: 2rem 0;
+  max-width: 500px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  color: white;
+  text-transform: capitalize;
+}
+nav {
+  .navbar-brand img {
+    width: 50px;
+  }
+  .nav-item {
+    margin: 0 30px;
+  }
+  .btn__order {
+    width: 200px;
+    border-radius: 30px;
+    background-color: #77202c !important;
+  }
+
+  .navbar-nav {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+  }
+}
+.logo,
+.logo h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+.text--brown {
+    color: var(--text-color) !important;
+  }
+  .btn--brown {
+    background-color: var(--third-color) !important;
+  }
+  .h1--styles {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--text-color);
+    text-shadow: 2px 2px 10px #a11d2f;
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: textAppear 1s ease-out forwards;
+    animation-delay: 1s;
+  }
