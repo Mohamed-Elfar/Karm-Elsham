@@ -351,6 +351,13 @@ footer {
   .btn__order {
     display: none;
   }
+.contact {
+    .details {
+        background: var(--third-color);
+        max-width: 370px !important;
+        margin: 10px;
+    }
+}
 
   .about__image .parent img {
     width: 80px;
