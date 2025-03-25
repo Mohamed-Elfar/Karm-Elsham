@@ -406,7 +406,7 @@ footer {
     margin: 5px 0;
     width: 75%;
   }
-
+.contact{.detailss{max-width:419px;}}
   .innovation {
     .innovation__image {
       margin-bottom: 30px;
@@ -422,6 +422,13 @@ footer {
   #ocean {
     height: 17% !important;
   }
+.contact {
+    .details {
+        
+        max-width: 332px;
+       
+    }
+}
   .about {
     .about__text button {
       display: none;
