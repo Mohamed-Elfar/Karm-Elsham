@@ -422,7 +422,9 @@ footer {
   #ocean {
     height: 17% !important;
   }
-
+.btn__order {
+    display: none;
+  }
 
   .about {
     .about__text button {
