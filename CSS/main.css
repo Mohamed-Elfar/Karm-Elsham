@@ -423,7 +423,7 @@ footer {
     height: 17% !important;
   }
 .btn__order {
-    display: none;
+    display: none !important;
   }
 
   .about {
